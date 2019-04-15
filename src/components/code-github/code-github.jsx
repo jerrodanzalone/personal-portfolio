@@ -14,18 +14,18 @@ class CodeGithubComponent extends Component {
     render() {
         return (
             <div className="code-github">
-              <p className="headline">Look at my code, my code is amazing</p>
+              <p className="headline">Check out this and my other repositories.</p>
                 <Card>
                   <CardHeader
                     subtitle="Github Repository"
-                    title="salomonelli/personal-portfolio"
+                    title="jerrodanzalone/personal-portfolio"
                     avatar="github.png"
                   />
                 <CardText>
                         This application is made with React and Material UI. Check out the code on Github.
                     </CardText>
                     <CardActions>
-                        <FlatButton label="View on github" href="https://github.com/salomonelli/personal-portfolio" target="_blank"/>
+                        <FlatButton label="View on github" href="https://github.com/jerrodanzalone/personal-portfolio" target="_blank"/>
                     </CardActions>
                 </Card>
             </div>

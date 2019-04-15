@@ -43,7 +43,7 @@ p {
 }
 
 .section.dark {
-  background: #16151C;
+  background: #1C2833;
 }
 
 .section-container.header-component {
@@ -55,7 +55,12 @@ p {
 }
 
 .section.colored {
-  background: #D8AB94;
+  background: #A9CCE3;
+  /* background: #EBEBEB; */
+}
+
+.section.maroon {
+  background: #F5B7B1;
   /* background: #EBEBEB; */
 }
 
@@ -69,7 +74,7 @@ p.headline {
 }
 
 .header-section {
-  background: #16151C;
+  background: #1C2833;
 }
 
 p.text-justify {

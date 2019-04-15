@@ -42,7 +42,7 @@ class HeaderComponent extends Component {
           <div className="header-wrapper" style={{"height": this.state.height}}>
             <SquareAnimationComponent></SquareAnimationComponent>
             <div className="header">
-                <h3>Sara Steiert</h3>
+                <h3>Jerrod Anzalone</h3>
                 <h6>Software Developer</h6>
             </div>
             <div className="scroll-down-btn">

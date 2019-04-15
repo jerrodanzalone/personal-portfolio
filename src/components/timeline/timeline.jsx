@@ -62,119 +62,117 @@ class TimelineComponent extends Component {
             <div className="timeline">
               <p className="headline">Working experience</p>
                 <div className="timeline-entry">
-                  <Card>
-                      <CardHeader title="Technology Consulting Analyst" subtitle="Accenture"/>
-                      <CardText expandable={true}>
-                          October	2016 - October 2017. Development of Microservices, UX-Consulting.
-                          <br/><br/>
-                            <div className="timeline-entries">
-                              <div className="timeline-entry-chip">
-                                <Chip>Angular 2</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Docker</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Jenkins</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>LESS</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Java Spring</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Foundation, Bootstrap</Chip>
-                              </div>
-                              <div className="timeline-entry-chip">
-                                <Chip>Confluence, JIRA</Chip>
-                              </div>
-                            </div>
-                      </CardText>
-                  </Card>
-                </div>
-                  <div className="timeline-entry">
-                    <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
-                        <CardHeader title="Software Developer" subtitle="Testo	SE	&	Co.	KGaA"
+                  <Card expanded={this.state.expanded1} onExpandChange={this.handleExpandChange}>
+                        <CardHeader title="Development Lead" subtitle="University of Nebraska"
                           actAsExpander={true} showExpandableButton={true}/>
                         <CardText expandable={true}>
-                            October	2016 - October 2017. Development of Microservices, UX-Consulting.
+                            Spring 2019. University of Nebraska MIS Capstone.
                             <br/><br/>
                               <div className="timeline-entries">
                                 <div className="timeline-entry-chip">
-                                  <Chip>Angular 2</Chip>
+                                  <Chip>Python</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Docker</Chip>
+                                  <Chip>Django, Wagtail</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Jenkins</Chip>
+                                  <Chip>Heroku</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>LESS</Chip>
+                                  <Chip>Amazon Web Services</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Java Spring</Chip>
+                                  <Chip>Google Maps API</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Foundation, Bootstrap</Chip>
+                                  <Chip>HTML, CSS, Bootstrap</Chip>
                                 </div>
                                 <div className="timeline-entry-chip">
-                                  <Chip>Confluence, JIRA</Chip>
+                                  <Chip>Github, Zenhub</Chip>
+                                </div>
+                              </div>
+                        </CardText>
+                    </Card>
+                </div>
+                  <div className="timeline-entry">
+                    <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
+                        <CardHeader title="Lead Optician" subtitle="University of Nebraska Medical Center"
+                          actAsExpander={true} showExpandableButton={true}/>
+                        <CardText expandable={true}>
+                            August 2011 - Present. Truhlsen Eye Institute.
+                            <br/><br/>
+                              <div className="timeline-entries">
+                                <div className="timeline-entry-chip">
+                                  <Chip>Microsoft Office, Access</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>Epic/One Chart</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>E-Z Frame</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>Filemaker Pro</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>Adobe Creative Suite</Chip>
+                                </div>
+                                <div className="timeline-entry-chip">
+                                  <Chip>SAS, Concur</Chip>
                                 </div>
                               </div>
                         </CardText>
                     </Card>
                   </div>
                   <div className="timeline-entry">
-                  <Card expanded={this.state.expanded2} onExpandChange={this.handleExpandChange2}>
-                      <CardHeader title="Student" subtitle="Testo	SE	&	Co.	KGaA"
+                  <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
+                      <CardHeader title="Technology Support Assistant" subtitle="University of Nebraska"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          October 2013 - September 2016. Bachelor of Science (Business Engineering), process automation and management, web and software development. Thesis: Integration of CRM and marketing automation with Hybris E-Commerce.
-
+                          January 2009 - August 2011. College of Education, UNO.
+                          <br/><br/>
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
-                              <Chip>BPMN</Chip>
+                              <Chip>Windows XP/7/10</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>SharePoint</Chip>
+                              <Chip>Apple OS X</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Nintex</Chip>
+                              <Chip>iMovie</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Marketo</Chip>
+                              <Chip>VMWare</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Microsoft Dynamics</Chip>
+                              <Chip>A/V Equipment</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>Hybris</Chip>
+                              <Chip>Dreamweaver</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>First Spirit</Chip>
+                              <Chip>SPSS</Chip>
                             </div>
                           </div>
                       </CardText>
                   </Card>
                 </div>
                 <div className="timeline-entry">
-                  <Card expanded={this.state.expanded3} onExpandChange={this.handleExpandChange3}>
-                      <CardHeader title="Trainee" subtitle="Testo	Instruments	(Shenzhen)	Co.	Ltd"
+                  <Card expanded={this.state.expanded4} onExpandChange={this.handleExpandChange4}>
+                      <CardHeader title="Graduate Student" subtitle="University of Nebraska"
                         actAsExpander={true} showExpandableButton={true}/>
                       <CardText expandable={true}>
-                          January	2015	-	March	2015. Installation of a quality management system according to ISO 9001 for the subsidiary in Shenzhen.
+                          M.S. in MIS from the University of Nebraska, May 2019.
 
                           <div className="timeline-entries">
                             <div className="timeline-entry-chip">
-                              <Chip>Confluence</Chip>
+                              <Chip>Data Management</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>ISO 9001</Chip>
+                              <Chip>Data Analysis</Chip>
                             </div>
                             <div className="timeline-entry-chip">
-                              <Chip>BPMN</Chip>
+                              <Chip>Systems Analysis & Design</Chip>
                             </div>
                           </div>
                       </CardText>

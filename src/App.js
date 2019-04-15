@@ -6,7 +6,6 @@ import './App.css';
 import ProgressComponent from './components/progress/progress';
 import BrowserDetectComponent from './components/browser-detect/browser-detect';
 import HeaderComponent from './components/header/header';
-import DarkVoiceComponent from './components/dark-voice/dark-voice';
 import IntroductionComponent from './components/introduction/introduction';
 import TimelineComponent from './components/timeline/timeline';
 import ProgrammingComponent from './components/programming/programming';
@@ -39,28 +38,23 @@ class App extends Component {
               <TimelineComponent></TimelineComponent>
             </div>
           </div>
-          <div className="section dark">
-            <div className="section-container">
-              <DarkVoiceComponent></DarkVoiceComponent>
-            </div>
-          </div>
-          <div className="section colored">
+          <div className="section maroon">
             <div className="section-container">
               <ProgrammingComponent></ProgrammingComponent>
             </div>
           </div>
-          <div className="section">
+          <div className="section colored">
             <div className="section-container">
               <DesignComponent></DesignComponent>
             </div>
           </div>
 
-          <div className="section colored">
+          <div className="section">
             <div className="section-container">
               <AgileComponent></AgileComponent>
             </div>
           </div>
-          <div className="section dark">
+          <div className="section maroon">
             <div className="section-container">
               <AgileQuoteComponent></AgileQuoteComponent>
             </div>
@@ -75,7 +69,7 @@ class App extends Component {
               <ContactComponent></ContactComponent>
             </div>
           </div>
-          <div className="section colored">
+          <div className="section maroon">
             <div className="section-container footer-component">
               <FooterComponent></FooterComponent>
             </div>

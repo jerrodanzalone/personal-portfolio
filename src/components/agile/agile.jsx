@@ -9,13 +9,13 @@ class AgileComponent extends Component {
           <div className="agile">
               <p className="headline">Agile development</p>
               <p className="text-justify">
-                Excellent results can be achieved through agility.
+                Believer in Scrum, Agile Methodology, and a robust feedback loop.
                 Therefore I try to empower the agile concept in any aspects of life.
                 I believe that brilliant software can only be achieved through constant feedback and an open mind.
                 Self-organization of teams triggers creativity.
                 <br /> <br />
-                Through working experience, I have become an expert on Scrum.
-                I have worked with JIRA, Confluence and classic tools like post-its.
+                Through coursework and self study, I feel Agile is the present and future of tech.
+                I have worked with JIRA, Zenhub, and classic tools like post-its.
               </p>
           </div>
         );
